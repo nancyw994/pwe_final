@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How AI Influences Choices - How AI Shapes What We Eat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true">
+    <div class="scroll-progress__bar"></div>
+  </div>
+
+  <nav class="site-nav site-nav--page">
+    <div class="logo"><a href="index.html">AI x Food</a></div>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="how-ai-influences-choices.html">How AI Influences Choices</a></li>
+        <li><a href="who-gets-impacted-unequally.html">Who Gets Impacted Unequally</a></li>
+        <li><a href="how-platforms-manipulate-spending.html">How Platforms Manipulate Spending</a></li>
+        <li><a href="how-culture-is-algorithmically-shaped.html">How Culture Is Algorithmically Shaped</a></li>
+        <li><a href="how-platforms-use-your-data.html">How Platforms Use Your Data</a></li>
+        <li><a href="what-ethical-ai-should-look-like.html">What Ethical AI Should Look Like</a></li>
+      </ul>
+  </nav>
+
+  <main>
+    <section class="page-intro">
+      <div class="intro-hero" role="img" aria-label="Collage of AI-influenced food recommendations">
+        <div class="intro-overlay"></div>
+        <div class="intro-content">
+          <p class="eyebrow">The Mechanism</p>
+          <h1>How AI Influences Choices</h1>
+          <p class="lead">
+            Most of us think we make food choices either because something is delicious, we are in a mood for a certain cuisine, or it's a convenient option. But behind the menu, AI quietly shapes those decisions. Food delivery apps, social media feeds, and digital menus use algorithms to predict and influence your cravings. From the meals visible first to ones labeled "most popular," AI systems guide choices by learning your behavior and prioritizing what produces clicks or profits. This invisible influence may seem helpful but raises some serious questions about autonomy, manipulation, and control over the menu you never asked for.
+          </p>
+          <p class="intro-caption">(Credit: Estudio Santa Rita)</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <article class="card" data-animate>
+        <h3>What Is a Recommender System?</h3>
+          <p>
+            A recommender system is a type of artificial intelligence that uses different information to predict what content or items a user is most likely to choose. These systems are at the core of platforms like TikTok, YouTube, Spotify, Instagram, Uber Eats, and DoorDash. Klimenta (2023) shows how recommender systems work by analyzing the user's behavior, such as what you search for, click on, or pause over, to decide what to show you next.
+        </p>
+        <p>
+          In food platforms, these systems decide which restaurants appear first, what meals are featured, and which dishes are promoted. They are not objective or neutral menus. They are carefully curated lists based on predictions and profit incentives.
+
+        </p>
+        <figure class="image-figure">
+          <img src="photo/recommender.png" alt="A recommender system diagram" class="content-image" />
+          <figcaption>Figure 1: A recommender system. Klimenta, M. (2023, November 13).</figcaption>
+        </figure>
+      </article>
+
+
+     
+      <article class="card" data-animate>
+        <h2 class="text-center">How AI Determines Your Food Feed</h3>
+        <div class="flowchart-container" data-animate>
+          
+          <div class="flowchart">
+            <div class="flowchart-step">
+              <div class="flowchart-box">User Behavior<br>(clicks, searches, orders)</div>
+            </div>
+            <div class="flowchart-arrow">→</div>
+            <div class="flowchart-step">
+              <div class="flowchart-box">Data Collection</div>
+            </div>
+            <div class="flowchart-arrow">→</div>
+            <div class="flowchart-step">
+              <div class="flowchart-box flowchart-box--highlighted">Algorithmic<br>Prediction</div>
+            </div>
+            <div class="flowchart-arrow">→</div>
+            <div class="flowchart-step">
+              <div class="flowchart-box">Ranked Food List</div>
+            </div>
+          </div>
+        </div>
+        <h4>What Inputs Feed the Algorithm?</h3>
+        <p>
+          When you open a food app, you are not randomly seeing restaurants. Instead, you see a list ranked by a machine learning algorithm. These algorithms weigh hundreds of data points including your location, time of day, previous orders, spending habits, dietary tags, delivery speed, and what others like you have chosen. The goal is to optimize for clicks, convenience, and cost-efficiency, instead of supporting necessarily nutritional value, local business support, or variety.
+
+        </p>
+        <p>
+          Recommender systems use a mix of techniques to predict what you'll want next. Commonly used techniques are collaborative, content-based, and context-aware filtering.
+        </p>
+
+        <div class="filtering-flowchart" data-animate>
+          <h4>Three Filtering Methods</h4>
+          <div class="filtering-flow">
+            <div class="filter-box">
+              <div class="filter-title">Collaborative (Ricci et al., 2015)</div>
+              <div class="filter-desc">Similar users → Similar foods</div>
+              <div class="filter-example">Example: Friends binge hotpot videos → You see hotpot deals.</div>
+            </div>
+            <div class="filter-box">
+              <div class="filter-title">Content-Based (Ricci et al., 2015)</div>
+              <div class="filter-desc">Food attributes → Similar items</div>
+              <div class="filter-example">Example: Favorite spicy ramen → App suggests other chili-heavy bowls.</div>
+            </div>
+            <div class="filter-box">
+              <div class="filter-title">Context-Aware (Adomavicius & Tuzhilin, 2015) </div>
+              <div class="filter-desc">Time/Location → Relevant suggestions</div>
+              <div class="filter-example">Example: Open app at 8 AM near campus → Breakfast burritos appear first.</div>
+            </div>
+          </div>
+          <div class="filter-arrows-down">
+            <div class="filter-arrow-down">↓</div>
+            <div class="filter-arrow-down">↓</div>
+            <div class="filter-arrow-down">↓</div>
+          </div>
+          <div class="filter-result">
+            <div class="result-box">Ranked Food List</div>
+          </div>
+        </div>
+        <p>
+          These techniques rank what's "most relevant." But relevance often means what's most profitable.
+        </p>
+      </article>
+
+      <article class="card" data-animate>
+        <h3>The Filter-Bubble Effect</h3>
+        <div class="text-media text-media--two-column">
+          <div class="text-media__text">
+            <p>
+              These recommender systems often reinforce your preexisting preferences. For example, when you watch a Korean BBQ video on TikTok, the app might show you more similar videos. As time goes on, similar options become more prevalent and other food varieties become less noticeable. Repetition of content reinforces limited preferences, a phenomenon known as a "filter bubble" (Popken, B., 2019).
+            </p>
+          </div>
+          <figure class="text-media__media">
+            <img src="photo/p2.webp" alt="Illustration of a person surrounded by algorithmic filters" />
+            <figcaption>Credit: Rose Wong / for NBC News</figcaption>
+          </figure>
+        </div>
+        
+     
+
+      </article>
+      <article class="card card--fullwidth card--dark-red" data-animate>
+        <h3>Why It Matters</h3>
+        <div class="full-width-text">
+          <p>
+            These recommender systems don't just shape what food you see. They can also reinforce social and economic divides. In low-income neighborhoods, users may get fewer healthy options, longer wait times, or higher fees. And it's not just consumers, delivery workers are also impacted by AI systems that track their speed, acceptance rate, and customer reviews, affecting their income and job security (Rosenblat, 2018).
+          </p>
+          <p>
+            We'll explore these inequalities more deeply in the next section: <em class="highlighted-link">Who Gets Impacted Unequally</em>.
+          </p>
+        </div>
+      </article>
+
+
+     
+      <div class="page-navigation">
+        <a href="index.html" class="button button--ghost">← Back to Home</a>
+        <a href="who-gets-impacted-unequally.html" class="button">Next: Who Gets Impacted Unequally →</a>
+      </div>
+    </section>
+
+    <section class="references-section">
+      <div class="references-content">
+        <h2 class="references-title">References</h2>
+        <div class="references-list">
+          <p>
+            Klimenta, M. (2023, November 13). <em>A recommender system: Collaborative filtering with sparse metadata.</em> VectorHub by Superlinked. <a href="https://superlinked.com/vectorhub/articles/recommender-system-collaborative-filtering-sparse-metadata" target="_blank" rel="noopener noreferrer">https://superlinked.com/vectorhub/articles/recommender-system-collaborative-filtering-sparse-metadata</a>
+          </p>
+          <p>
+            Ricci, F., Rokach, L., & Shapira, B. (2015). <em>Recommender systems handbook</em> (2nd ed.). Springer. <a href="https://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf" target="_blank" rel="noopener noreferrer">https://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf</a>
+          </p>
+          <p>
+            Adomavicius, G., & Tuzhilin, A. (2015). Context-aware recommender systems. In F. Ricci, L. Rokach, & B. Shapira (Eds.), <em>Recommender systems handbook</em> (pp. 191–226). Springer. <a href="https://doi.org/10.1007/978-1-4899-7637-6_6" target="_blank" rel="noopener noreferrer">https://doi.org/10.1007/978-1-4899-7637-6_6</a>
+          </p>
+          <p>
+            Popken, B. (2019, October 17). The problem with social media reinforcement bubbles — and what you can do about it. <em>NBC News</em>. <a href="https://www.nbcnews.com/better/lifestyle/problem-social-media-reinforcement-bubbles-what-you-can-do-about-ncna1063896" target="_blank" rel="noopener noreferrer">https://www.nbcnews.com/better/lifestyle/problem-social-media-reinforcement-bubbles-what-you-can-do-about-ncna1063896</a>
+          </p>
+          <p>
+            Baugh, K., & Pooler, J. (2021, August 18). Delivering to deserts: New data reveals the geography of digital access to food in the U.S. <em>Brookings Institution</em>. <a href="https://www.brookings.edu/articles/delivering-to-deserts-new-data-reveals-the-geography-of-digital-access-to-food-in-the-us/" target="_blank" rel="noopener noreferrer">https://www.brookings.edu/articles/delivering-to-deserts-new-data-reveals-the-geography-of-digital-access-to-food-in-the-us/</a>
+          </p>
+          <p>
+            ROSENBLAT, A. (2018). <em>Uberland: How Algorithms Are Rewriting the Rules of Work (1st ed.)<\em>. University of California Press. <a href="http://www.jstor.org/stable/10.1525/j.ctv5cgbm3" target="_blank" rel="noopener noreferrer">http://www.jstor.org/stable/10.1525/j.ctv5cgbm3</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <pEN.661.110. Final Multimodal Project · AI Shapes What You Eat · 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

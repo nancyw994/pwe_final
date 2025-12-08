@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Platforms Use Your Data - How AI Shapes What We Eat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true">
+    <div class="scroll-progress__bar"></div>
+  </div>
+
+  <nav class="site-nav site-nav--page">
+    <div class="logo"><a href="index.html">AI x Food</a></div>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="how-ai-influences-choices.html">How AI Influences Choices</a></li>
+        <li><a href="who-gets-impacted-unequally.html">Who Gets Impacted Unequally</a></li>
+        <li><a href="how-platforms-manipulate-spending.html">How Platforms Manipulate Spending</a></li>
+        <li><a href="how-culture-is-algorithmically-shaped.html">How Culture Is Algorithmically Shaped</a></li>
+        <li><a href="how-platforms-use-your-data.html">How Platforms Use Your Data</a></li>
+        <li><a href="what-ethical-ai-should-look-like.html">What Ethical AI Should Look Like</a></li>
+      </ul>
+  </nav>
+
+  <main>
+    <section class="page-intro">
+      <div class="intro-hero intro-hero--p5" role="img" aria-label="Illustration of data privacy in food apps">
+        <div class="intro-overlay intro-overlay--darker"></div>
+        <div class="intro-content">
+        <p class="eyebrow">Privacy + Agency</p>
+        <h1>How Platforms Use Your Data</h1>
+          <p class="lead">
+            Have you wondered how your food app seems to know exactly what you're craving at the perfect time? Or why that same spicy ramen deal shows up right when you're feeling hungry? It's not a coincidence. This is because the apps you used are collecting information about you. They're tracking where you are, what you eat, when you order, and even how much you spend. That data helps them personalize your experience, predict your habits, and in many cases, share or sell your profile to other companies (IBM, n.d.). It might feel convenient, but it also raises some real questions about privacy, consent, and just how much of yourself you're handing over every time you tap "place order."
+          </p>
+          <p class="intro-caption">(Credits: Times Internet Newsroom)</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <article class="card" data-animate>
+        <h2>What They Collect</h2>
+        <p>
+          Food delivery apps are extremely data-hungry. On average, they collect around 21 out of 32 possible data points, with roughly 95 percent of that data directly linked to individual users. About one-third of the data points collected by food delivery apps are used for tracking purposes, including information such as precise location, email address, and purchase history, which can be shared with third parties for advertising and analytics (Surfshark, 2023).
+        </p>
+        <p>
+          For example:
+        </p>
+        
+        <div class="data-collection-list">
+          <div class="data-item">
+            <h3>Location</h3>
+            <p>Apps constantly track both your exact and general location. It's not just about getting food to your door, it's also about learning your routines. DoorDash, for instance, stores precise GPS and address history to build user profiles.</p>
+          </div>
+          
+          <div class="data-item">
+            <h3>Order and food preferences</h3>
+            <p>Every dish you order can show something about you, your taste, dietary restrictions, and even cultural or religious food practices, like halal or vegetarian eating.</p>
+          </div>
+          
+          <div class="data-item">
+            <h3>Timing</h3>
+            <p>If you are ordering ramen at midnight or coffee every weekday morning, it helps apps understand your daily rhythms, including your sleep habits.</p>
+          </div>
+          
+          <div class="data-item">
+            <h3>Spending patterns</h3>
+            <p>The record of what you spend and where you spend gives apps a peek into your lifestyle. Algorithms can learn the things you like by looking at your order history.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <article class="card" data-animate>
+        <h2>Predicting Your Next Craving</h2>
+        <div class="text-media text-media--two-column">
+          <div class="text-media__text">
+            <p>
+              These apps don't just collect data. They use it to predict what you'll want next. Recommendation systems compare your past orders to other users with similar habits. If you and someone else both like pho, you might be shown a restaurant they recently enjoyed too.
+            </p>
+            <p>
+              More advanced platforms use tools like recurrent neural networks to find patterns in your eating habits. If you usually get oatmeal on Mondays, salad on Tuesdays, and pizza on Fridays, the app might start sending you pizza deals around dinnertime on Friday. Some researchers even say the system can know when you're hungry before you do (Chen, Wang, Zhou, & Campbell, 2014).
+            </p>
+          </div>
+          <figure class="text-media__media">
+            <img src="photo/oo.jpg" alt="Illustration of predictive algorithms in food apps" class="prediction-img" />
+            <figcaption>Credit to Serious Eats / Gianna Ruggiero</figcaption>
+          </figure>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <article class="card" data-animate>
+        <h2>Who Else Sees Your Data</h2>
+        <div class="text-media text-media--two-column">
+          <div class="text-media__text">
+            <p>
+              Many food delivery companies happen to be among the biggest data sharers within the tech world. It is reported that Grubhub collects about 64% of all possible user data points, while Uber Eats collects about 57% (Food On Demand, 2021). A lot of this information is passed to the advertisers, restaurants, or data brokers.
+            </p>
+            <p>
+              Let's say you regularly order spicy Korean food late at night. Your data could end up being a part of a marketing report that said young adults in Los Angeles love Korean food after 11 pm. Even though your name isn't on it, that information shapes what deals, ads, or promotions you're shown in the future.
+            </p>
+          </div>
+          <figure class="text-media__media">
+            <img src="photo/db.png" alt="Illustration of data sharing and privacy concerns" class="data-sharing-img" />
+            <figcaption>Credit to databricks</figcaption>
+          </figure>
+      </div>
+      </article>
+    </section>
+
+    <section>
+      <article class="card" data-animate>
+        <h2>Why It Matters: Sensitive Info and Consent</h2>
+        <p>
+          Food apps can infer surprisingly personal things just from your orders.
+        </p>
+        
+        <div class="sensitive-info-grid">
+          <div class="sensitive-item">
+            <div class="sensitive-icon">🏥</div>
+            <h3>Health Conditions</h3>
+            <p>Like diabetes or gluten intolerance</p>
+          </div>
+          
+          <div class="sensitive-item">
+            <div class="sensitive-icon">🕌</div>
+            <h3>Religious Identity</h3>
+            <p>Based on kosher or halal preferences</p>
+          </div>
+          
+          <div class="sensitive-item">
+            <div class="sensitive-icon">💰</div>
+            <h3>Economic Status</h3>
+            <p>Based on restaurant types and discount usage</p>
+          </div>
+        </div>
+        
+        <p>
+          The issue is that most people never knowingly agree to this level of analysis. While apps sometimes ask for permission in narrow cases, like allowing a restaurant to contact you, most of the data collection happens quietly in the background. Most of us just tap "Accept" and move on, without really knowing what we're agreeing to.
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <article class="card" data-animate>
+        <h2>The Bigger Picture</h2>
+        <p>
+          If you're a college student or you like to follow food trends online, every tap through a menu, midnight snack, or liked food video informs your digital profile. Personalization can be convenient, but it's powered by a kind of surveillance most people never signed up for.
+        </p>
+        <p>
+          Convenience is great, but it may be costing more than you realize: your digital privacy.
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <div class="page-navigation">
+        <a href="how-culture-is-algorithmically-shaped.html" class="button button--ghost">← Previous: How Culture Is Algorithmically Shaped</a>
+        <a href="what-ethical-ai-should-look-like.html" class="button">Next: What Ethical AI Should Look Like →</a>
+      </div>
+    </section>
+
+    <section class="references-section">
+      <div class="references-content">
+        <h2 class="references-title">References</h2>
+        <div class="references-list">
+          <p>Chen, F., Wang, R., Zhou, X., & Campbell, A. T. (2014). My smartphone knows I am hungry. In <em>Proceedings of the 2014 Workshop on Physical Analytics</em> (pp. 9–14). ACM. <a href="https://doi.org/10.1145/2611264.2611270" target="_blank">https://doi.org/10.1145/2611264.2611270</a></p>
+          
+          <p>Food On Demand. (2021, March 18). Delivery platforms among biggest personal data collectors. <a href="https://foodondemand.com/03182021/delivery-platforms-among-biggest-personal-data-collectors/" target="_blank">https://foodondemand.com/03182021/delivery-platforms-among-biggest-personal-data-collectors/</a></p>
+          
+          <p>IBM. (n.d.). What is data sharing? IBM Think. <a href="https://www.ibm.com/think/topics/data-sharing" target="_blank">https://www.ibm.com/think/topics/data-sharing</a></p>
+          
+          <p>Surfshark. (2023). App privacy checker: how much data do shopping and food delivery apps collect? Surfshark. <a href="https://surfshark.com/research/study/app-privacy-checker?srsltid=AfmBOopSiI5ePKxLOhsJdkNkE_yXl-UDfgFCsflhYbQhDO-2ZM8D4jzy" target="_blank">https://surfshark.com/research/study/app-privacy-checker?srsltid=AfmBOopSiI5ePKxLOhsJdkNkE_yXl-UDfgFCsflhYbQhDO-2ZM8D4jzy</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>EN.661.110. Final Multimodal Project · AI Shapes What You Eat · 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
